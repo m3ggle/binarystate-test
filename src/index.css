@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-stone-100 text-gray-800;
+}
+
+h1 {
+@apply text-5xl font-bold;
+}
+
+h3 {
+  @apply text-4xl font-semibold;
+}
+
+p {
+  @apply text-base font-medium;
+}
+
+.button {
+  @apply flex items-center gap-2 px-4 py-3 rounded-lg text-base font-semibold w-fit h-11 bg-gray-800 shadow text-white;
+  @apply hover:bg-gray-900 shadow-md;
+  @apply active:bg-gray-950 shadow-sm;
+}
